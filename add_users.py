@@ -1,5 +1,5 @@
 # to run in flask shell: exec(open("./add_users.py").read())
-from twitoff.models import User, Tweet
+from twitoff.models import DB, User, Tweet
 
 DB.drop_all()
 DB.create_all()
